@@ -29,10 +29,14 @@ set ruler
 set confirm
 set showcmd
 set showmode
-"set visualbell
+set noerrorbells
+set novisualbell
 set mouse=a
 
 set splitright
+
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swp//
 
 " toggle between number and relativenumber
 function! ToggleNumber()
@@ -43,4 +47,3 @@ function! ToggleNumber()
         set relativenumber
     endif
 endfunc
-

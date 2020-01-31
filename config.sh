@@ -1,3 +1,6 @@
+mkdir ~/.vim/backup
+mkdir ~/.vim/swp
+
 rsync colors/ ~/.vim/colors/
 vimrc_path=~/.vimrc
 vimrc_backup_path=~/.vimrc_backup_path
