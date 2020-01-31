@@ -37,6 +37,8 @@ set splitright
 
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
+set undofile
+set undodir=~/.vim/undo//
 
 " toggle between number and relativenumber
 function! ToggleNumber()
